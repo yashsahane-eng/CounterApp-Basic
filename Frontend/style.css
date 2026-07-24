@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#count {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 18px;
+    margin: 5px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+#increment{
+   color: white;
+   background-color: #4CAF50;
+}
+
+#reset{
+    color:white;
+    background-color:red;
+}
+
+#decrement{
+    color:white;
+    background-color:orange;
+}
+#decrement:disabled{
+  background-color: grey;
+
+}
